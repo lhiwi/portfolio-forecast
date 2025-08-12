@@ -1,0 +1,72 @@
+﻿# OS & Editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# VS Code 
+.vscode/
+
+# Python build / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Packaging / build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+# Jupyter / Colab
+.ipynb_checkpoints/
+profile_default/
+.ipynb_out/
+*.nbconvert.ipynb
+# Data, models, logs (kept out of Git)
+data/*
+!data/.gitkeep
+models/
+checkpoints/
+logs/
+reports/
+figures/
+
+# Common data file types
+*.csv
+*.parquet
+*.feather
+*.h5
+*.pkl
+*.joblib
+*.npz
+*.zip
+
+# Credentials / env files
+
+.env
+.env.*
+*.env
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.mypy_cache/
+.ruff_cache/
+.cache/
+# Notebooks’ large outputs
+
+# *.nbstrip

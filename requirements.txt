@@ -1,0 +1,29 @@
+﻿# Core scientific stack
+numpy==1.26.4      
+pandas==2.2.2
+scipy==1.13.1
+
+# Plotting / viz
+
+matplotlib==3.9.0
+tqdm==4.66.4
+
+# testing
+pytest
+
+
+# Data access
+yfinance==0.2.50
+
+
+# Time-series & econometrics
+
+statsmodels==0.14.2
+pmdarima==2.0.4
+
+# ML / DL
+scikit-learn==1.5.1
+tensorflow==2.16.1    
+
+# Portfolio optimization
+PyPortfolioOpt==1.5.5
